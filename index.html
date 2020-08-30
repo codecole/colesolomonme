@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#282828" />
+    <title>Cole Solomon | Ux Engineer: Interaction design & App Development</title>
+    <meta name="author" content="Cole Solomon Ux Engineer">
+    <meta name="description" content="Cole Solomon | Ux Engineer: Interaction design & App Development">
+    <meta name="keywords" content="creative, works, showcase, portfolio, highlight, projects, modern, agency, digital, studio, css, animation, transition, freelancers,app, interaction, user experience, ux, ui, research, engineering, design, dribble, behance, developer">
+
+    <!-- SOCIAL MEDIA META -->
+    <meta property="og:description" content="Cole Solomon | Ux Engineer: Interaction design & App Development">
+    <meta property="og:image" content="https://www.colesolomon.me">
+    <meta property="og:site_name" content="colesolomonme">
+    <meta property="og:title" content="colesolomonme">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.colesolomon.me">
+
+    <!-- TWITTER META -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@thecodeghost">
+    <meta name="twitter:creator" content="@thecodeghost">
+    <meta name="twitter:title" content="thecodeghost">
+    <meta name="twitter:description" content="Cole Solomon | Ux Engineer: Interaction design & App Development">
+    <meta name="twitter:image" content="https://www.colesolomon.me">
+
+    <!-- FAVICON FILES -->
+    <link href="/ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
+    <link href="/ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="/ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="/ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
+    <link href="/ico/favicon.png" rel="shortcut icon">
+
+    <!-- CSS FILES -->
+
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @font-face {
+            font-family: "Mont";
+            src: url("fonts/Mont-Regular.ttf");
+            src: url("fonts/Mont-Regular.eot");
+            src: local("☺"), url("fonts/Mont-Regular.woff") format("woff"), url("fonts/Mont-Regular.ttf") format("truetype"), url("fonts/Mont-Regular.svg") format("svg");
+            font-weight: 400;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: "Mont";
+            src: url("fonts/Mont-Bold.ttf");
+            src: url("fonts/Mont-Bold.eot");
+            src: local("☺"), url("fonts/Mont-Bold.woff") format("woff"), url("fonts/Mont-Bold.ttf") format("truetype"), url("fonts/Mont-Bold.svg") format("svg");
+            font-weight: 600;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: "Mont";
+            src: url("fonts/Mont-Heavy.ttf");
+            src: url("fonts/Mont-Heavy.eot");
+            src: local("☺"), url("fonts/Mont-Heavy.woff") format("woff"), url("fonts/Mont-Heavy.ttf") format("truetype"), url("fonts/Mont-Heavy.svg") format("svg");
+            font-weight: 800;
+            font-style: normal;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="w3-col-m12 w3-display-container w3-black fullpage backs" id="landing" style="width: 100vw; height: 100vh;">
+
+        <!-- THE LOGO -->
+        <div class="w3-display-topleft">
+            <img src="images/logo-light.png" id="logoIndex" alt="colesolomon logo">
+        </div>
+
+        <!--THE LOGO ENDS-->
+
+        <!--THE LEFT PANE-->
+
+        <div class='w3-left w3-col s6 fullpage' id="leftPane" onmouseover="addnewEffect()" onmouseout="removenewEffect()">
+            <div id="ll" class='w3-opacity-max w3-hide'>
+
+
+            </div>
+            <div class="w3-display-left s6" id="leftPaneInfo">
+
+                <p id="introText1"> De<br>Sign</p>
+
+                <a href="design.php">
+                    &#8592;  VIEW PIXELS </a>
+            </div>
+
+        </div>
+        <!--THE LEFT PANE ENDS-->
+        <!--THE RIGH PANE-->
+
+
+        <div class='w3-right w3-col s6 fullpage' id="rightPane" onmouseover="addEffect()" onmouseout="removeEffect()">
+            <div id="rr" class='w3-right w3-opacity-max w3-hide'>
+
+            </div>
+            <div class="w3-display-right s6" id="rightPaneInfo">
+                <p id="introText2"> Co<br>De</p>
+                <a href="code.php">
+                    VIEW CODE  &#8594;
+                </a>
+            </div>
+
+        </div>
+
+
+        <!--THE RIGHT PANE ENDS-->
+
+
+        <!--THE MODAL SECTION-->
+
+
+        <!-- <div class="w3-display-bottomright">
+
+            <div class="w3-bar"></div>
+            <a href="#" class="w3-bar-item">TWITTER</a>
+            <a href="#" class="w3-bar-item">GITHUB</a>
+            <a href="#" class="w3-bar-item">BEHANCE</a>
+
+        </div> -->
+        <div class="w3-bar">
+            <a href='#' id="aboutMe" onclick="document.getElementById('id01').style.display='block'" class="w3-btn w3-display-bottommiddle">ABOUT ME 
+                <br> &#8595;</a>
+
+
+
+        </div>
+        <!--THE MODAL BUTTON-->
+
+    </div>
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-animate-opacity">
+            <header class="w3-container w3-white">
+                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright w3-hover-white w3-jumbo">&times;</span>
+                <h1 class="w3-xxlarge">WHO IS COLE SOLOMON?</h1>
+            </header>
+            <div class="w3-container w3-white">
+                <div class="w3-row w3-row-padding" style="padding-bottom: 40px;">
+
+                    <img class="w3-image w3-left w3-third" src="images/colesolomon.png" style="padding-right: 50px;">
+
+                    <div class="w3-right w3-twothird">
+                        <p></p>
+                        <br /> Cole is a <strong>UX Engineer </strong> showing versatility as an Interaction designer by day, mobile developer by night- call him Bruce Wayne (without the mask of course!). <br/>I love to add value to brands by demystifying
+                        ideas from the concept stage and produce working prototypes or MVP, whether they be related to user research, Interface design, web design or mobile development.
+                        </p>
+                        <p>I am exploring my skills currently as an Interaction Designer with Divercity.io, USA and as a Technical lead with Antigravity Tech Hub, USA.(Yes, Bruce Wayne again)</p>
+                        <p>
+                            My skills have been harnessed across various firms and industries that cut across diverse sectors and I associate with different tech communities,with the aim of improving the growth and equipping of technological skills amongst underrepresented and minorities
+                            in Africa.</p>
+                        <p>when I am not in front of my macbook,speaking or organising tech conferences, then you can find me playing video games or at a sporting center supporting the best team in the world Barcelona.</p>
+                        <p>Right now, I am dabbling into the MERN Stack, the Web is catching my fancy, as learning and relearning is a skill that I value.</p>
+                        <p>
+                            Want to view my<a href="#">CV</a>Carry on!
+                        </p>
+                    </div>
+
+                </div>
+                <div class="w3-row w3-row-padding">
+
+                    <div class="w3-third">
+                        <h1>SKILLS<br>TOOLS</h1>
+                    </div>
+
+                    <div class="w3-third">
+
+                        <h5 class="text">CODE</h5>
+                        <ul>
+                            <li>HTML/CSS</li>
+                            <li>javascript / JQuery</li>
+                            <li>Bootstrap</li>
+                            <li>Flutter / Dart</li>
+
+                            <li>Firebase</li>
+                            <li>Git</li>
+                            <li>PhoneGap</li>
+                            <li>CMS</li>
+                        </ul>
+
+                        <h5 class="text">VISUAL</h5>
+                        <ul>
+                            <li>Ilustration</li>
+                            <li>Micro-Interactions / Animation</li>
+
+
+
+                        </ul>
+                    </div>
+
+                    <div class="w3-third">
+
+                        <h5 class="text">TOOLS</h5>
+
+                        <ul>
+                            <li>Adobe illustrator</li>
+                            <li>Adobe Photoshop</li>
+                            <li>Adobe XD</li>
+                            <li>Figma</li>
+                            <li>Principle</li>
+                            <li>After Effects</li>
+                            <li>Balsamiq</li>
+                            <li>Invision</li>
+
+                        </ul>
+
+
+                        <h5 class="text">INTERACTIONS</h5>
+                        <ul>
+                            <li>User Research</li>
+                            <li>Wireframing</li>
+                            <li>Prototyping</li>
+
+
+                        </ul>
+                    </div>
+
+
+
+                </div>
+
+                <div class="w3-row w3-row-padding" style="padding-bottom: 40px;">
+
+                    <div class="w3-third">
+                        <h1>COMMU<br>NITIES</h1>
+                    </div>
+
+                    <div class="w3-third" style="padding-right: 40px;">
+
+                        <h5 class="text">Flutter Group</h5>
+                        <p>MEMBER</p>
+                        <p>
+                            A team of Flutter developers that evangelise the beauty about this awesome framework, we share, build, support and collaborate to improve the community
+
+                        </p>
+                        <h5 class="text">Asa Coterie</h5>
+                        <P>MEMBER</P>
+                        <p>
+                            Design is One. We are a cross-disciplinary community of passionate designers. We believe good design can change the world.
+
+                        </p>
+
+
+
+                    </div>
+
+                    <div class="w3-third">
+                        <h5 class="text">Prototypr.io</h5>
+                        <P>FREELANCE WRITER</P>
+                        <p>
+                            The latest daily design news, prototyping tool tutorials, and special offers for the design tools you love. From UX design to front end development.
+                            <br/>
+                            <br />
+
+                        </p>
+
+
+                        <h5 class="text">Kwara Build</h5>
+                        <P>MEMBER</P>
+                        <p>
+                            A non-profit community of tech lovers and enthusiast developing the tech ecosystem in Kwara state.
+
+                        </p>
+                    </div>
+
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="w3-container w3-white" style="padding-bottom: 60px;">
+                <div class="w3-row w3-row-padding">
+                    <div class="w3-third">
+                        <h5 class="text">Say Hello</h5>
+
+                    </div>
+                    <div class="w3-bar w3-twothird">
+                        <a href="https://twitter.com/thecodeghost" target="_blank" class="w3-bar-item w3-button w3-hover-white"> TWITTER</a>
+                        <a href="https://github.com/codecole" target="_blank" class="w3-bar-item w3-button w3-hover-white">GITHUB</a>
+                        <!-- <a href="#" class="w3-bar-item w3-button w3-hover-white">MEDIUM</a> -->
+                        <a href="https://www.linkedin.com/in/cole-solomon/" target="_blank" class="w3-bar-item w3-button w3-hover-white">LINKEDIN</a>
+                        <a href="https://www.behance.net/colesolomon" target="_blank" class="w3-bar-item w3-button w3-hover-white">BEHANCE</a>
+                        <p><a href="#"> hello@colesolomon.me</a></p>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script type="text/javascript" src="index.js">
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,238 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Mont";
+    src: url("fonts/Mont-Regular.ttf");
+    src: url("fonts/Mont-Regular.eot");
+    src: local("☺"), url("/fonts/Mont-Regular.woff") format("woff"), url("/fonts/Mont-Regular.ttf") format("truetype"), url("/fonts/Mont-Regular.svg") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mont";
+    src: url("/fonts/Mont-Bold.ttf");
+    src: url("fonts/Mont-Bold.eot");
+    src: local("☺"), url("fonts/Mont-Bold.woff") format("woff"), url("fonts/Mont-Bold.ttf") format("truetype"), url("fonts/Mont-Bold.svg") format("svg");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mont";
+    src: url("fonts/Mont-Heavy.ttf");
+    src: url("fonts/Mont-Heavy.eot");
+    src: local("☺"), url("fonts/Mont-Heavy.woff") format("woff"), url("fonts/Mont-Heavy.ttf") format("truetype"), url("fonts/Mont-Heavy.svg") format("svg");
+    font-weight: 800;
+    font-style: normal;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Mont !important;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+#logoIndex {
+    width: 50%;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+.text {
+    font-family: 'Mont';
+    font-weight: normal;
+    font-size: 14.0;
+}
+
+#aboutMe {
+    text-align: center;
+    padding: 20px;
+}
+
+.fullpage {
+    height: 100%;
+    overflow: hidden;
+}
+
+.backs {
+    transition: 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    background-image: url('assets/me.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.lefts {
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    background-image: url('assets/code.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.rights {
+    transition: 1s ease-in-out;
+    background-image: url('assets/design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#introText1 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: normal;
+    line-height: 60px;
+}
+
+#introText2 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: normal;
+    line-height: 60px;
+}
+
+#rightPaneInfo {
+    padding-right: 50px;
+}
+
+#leftPaneInfo {
+    padding-left: 100px;
+}
+
+button {
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+
+/* Animations and effects */
+
+.elementor-animation-grow {
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.elementor-animation-grow:hover {
+    transform: scale(1.1);
+}
+
+.color-change-3x {
+    animation: color-change-3x 1.0s linear both
+}
+
+.color-change-3xa {
+    animation: color-change-3x 1.0s linear reverse both
+}
+
+@keyframes color-change-3x {
+    0% {
+        background: #000000
+    }
+    50% {
+        background: #0f0f0f
+    }
+    100% {
+        background: #212121
+    }
+}
+
+@keyframes color-change-3xa {
+    0% {
+        background: #212121
+    }
+    50% {
+        background: #0f0f0f
+    }
+    100% {
+        background: #000000
+    }
+}
+
+.text-blur-out {
+    animation: text-blur-out 0.9s cubic-bezier(.55, .085, .68, .53) both
+}
+
+@keyframes text-blur-out {
+    0% {
+        filter: blur(.01)
+    }
+    100% {
+        filter: blur(5px) opacity(1)
+    }
+}
+
+.slide-out-right {
+    animation: slide-out-right .5s cubic-bezier(.55, .085, .68, .53) both
+}
+
+@keyframes slide-out-right {
+    0% {
+        transform: translateX(0);
+        opacity: 1
+    }
+    100% {
+        transform: translateX(1000px);
+        opacity: 0
+    }
+}
+
+.wobble-hor-bottom {
+    animation: wobble-hor-bottom 1.5s both
+}
+
+@keyframes wobble-hor-bottom {
+    0%,
+    100% {
+        transform: translateX(0);
+        transform-origin: 50% 50%
+    }
+    15% {
+        transform: translateX(-30px) rotate(-6deg)
+    }
+    30% {
+        transform: translateX(15px) rotate(6deg)
+    }
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg)
+    }
+    60% {
+        transform: translateX(9px) rotate(2.4deg)
+    }
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg)
+    }
+}
+
+@media (max-width:600px) {
+    #rightPaneInfo {
+        padding-right: 20px;
+    }
+    #leftPaneInfo {
+        padding-left: 20px;
+    }
+}
