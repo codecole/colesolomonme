@@ -1028,20 +1028,6 @@ moe .color-dark .left-side ul li a:hover {
 
 /* To make the header sticky when flowing */
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-section {
-    padding: 16px;
-}
-
-.sticky+section {
-    padding-top: 102 px;
-}
-
 
 /* NAVBAR */
 

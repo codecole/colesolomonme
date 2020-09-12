@@ -61,7 +61,7 @@ a:hover {
 
 #aboutMe {
     text-align: center;
-    padding: 20px;
+    padding-bottom: 20px;
 }
 
 .fullpage {
@@ -101,7 +101,14 @@ a:hover {
     background-position: center;
 }
 
-#introText {
+#introText1 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: normal;
+    line-height: 60px;
+}
+
+#introText2 {
     font-size: 50px;
     font-weight: 800;
     letter-spacing: normal;
@@ -110,12 +117,10 @@ a:hover {
 
 #rightPaneInfo {
     padding-right: 30px;
-    text-align: right;
 }
 
 #leftPaneInfo {
     padding-left: 30px;
-    text-align: left;
 }
 
 button {
@@ -225,9 +230,11 @@ button {
 @media (max-width:600px) {
     #rightPaneInfo {
         padding-right: 20px;
+        text-align: right;
     }
     #leftPaneInfo {
         padding-left: 20px;
+        text-align: left;
     }
     #introText {
         font-size: 30px;
