@@ -27,7 +27,7 @@
                 }, 20);
         }
 
-        //resize landing page
+
 
 
         // HAMBURGER AUDIO
@@ -365,18 +365,18 @@
 
     //STICKY HEADER
 
-    window.onscroll = function() { stickyHeader() };
+    // window.onscroll = function() { stickyHeader() };
 
-    var header = document.getElementsByTagName('header');
-    var sticky = header.offsetTop;
+    // var header = document.getElementsByTagName('header');
+    // var sticky = header.offsetTop;
 
-    function stickyHeader() {
-        if (window.pageYOffset > sticky) {
-            header.classList.add('sticky');
+    // function stickyHeader() {
+    //     if (window.pageYOffset > sticky) {
+    //         header.classList.add('sticky');
 
-        } else {
-            header.classList.remove('sticky');
-        }
-    }
+    //     } else {
+    //         header.classList.remove('sticky');
+    //     }
+    // }
 
 })(jQuery);
