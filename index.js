@@ -59,10 +59,3 @@ function removenewEffect() {
 
 
 }
-
-//adds the exit function when clicked
-// function exitRight() {
-//     let exitRight = document.getElementsById('pane');
-//     exitRight.classList.add("slide-out-right");
-
-// }

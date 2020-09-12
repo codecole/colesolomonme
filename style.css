@@ -47,7 +47,6 @@ body {
 
 a {
     text-decoration: none;
-    padding: 20px;
 }
 
 a:hover {
@@ -102,14 +101,7 @@ a:hover {
     background-position: center;
 }
 
-#introText1 {
-    font-size: 50px;
-    font-weight: 800;
-    letter-spacing: normal;
-    line-height: 60px;
-}
-
-#introText2 {
+#introText {
     font-size: 50px;
     font-weight: 800;
     letter-spacing: normal;
@@ -117,11 +109,13 @@ a:hover {
 }
 
 #rightPaneInfo {
-    padding-right: 50px;
+    padding-right: 30px;
+    text-align: right;
 }
 
 #leftPaneInfo {
-    padding-left: 100px;
+    padding-left: 30px;
+    text-align: left;
 }
 
 button {
@@ -234,5 +228,25 @@ button {
     }
     #leftPaneInfo {
         padding-left: 20px;
+    }
+    #introText {
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: normal;
+        line-height: 40px;
+    }
+    #leftPaneInfo>a,
+    #rightPaneInfo>a {
+        font-size: 10px;
+    }
+    .backs {
+        background-image: url('assets/me-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    #aboutMe {
+        text-align: center;
+        padding-bottom: 60px;
     }
 }
