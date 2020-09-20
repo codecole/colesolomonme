@@ -996,8 +996,14 @@ moe .color-dark .left-side ul li a:hover {
 
 .header .page-title {
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     margin-top: 50px;
+}
+
+.header .page-title h1 {
+    font-weight: 800;
+    font-size: 8vw;
+    margin-bottom: 10px;
 }
 
 .header .page-title h2 {
@@ -1121,7 +1127,7 @@ moe .color-dark .left-side ul li a:hover {
 .navbar .main-menu ul li a:before {
     content: "";
     display: block;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 9px;
     height: 1px;
