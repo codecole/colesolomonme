@@ -1127,7 +1127,7 @@ moe .color-dark .left-side ul li a:hover {
 .navbar .main-menu ul li a:before {
     content: "";
     display: block;
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 9px;
     height: 1px;

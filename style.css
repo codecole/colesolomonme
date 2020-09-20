@@ -249,7 +249,7 @@ button {
     .backs {
         background-image: url('assets/me-mobile.jpg') !important;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-position: center;
     }
     #aboutMe {
