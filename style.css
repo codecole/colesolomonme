@@ -247,7 +247,7 @@ button {
         font-size: 10px;
     }
     .backs {
-        background-image: url('assets/me-mobile.jpg') !important;
+        background-image: url('assets/me-mobile.png') !important;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
