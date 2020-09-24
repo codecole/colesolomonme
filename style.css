@@ -75,7 +75,7 @@ a:hover {
     -webkit-transition: all 1s ease-in-out;
     -ms-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
-    background-image: url('assets/me.jpg');
+    background-image: url('assets/Asset\ 28.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -87,7 +87,7 @@ a:hover {
     -webkit-transition: all 1s ease-in-out;
     -ms-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
-    background-image: url('assets/code.jpg');
+    background-image: url('assets/Asset\ 30.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -95,7 +95,7 @@ a:hover {
 
 .rights {
     transition: 1s ease-in-out;
-    background-image: url('assets/design.jpg');
+    background-image: url('assets/Asset\ 29.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -247,7 +247,7 @@ button {
         font-size: 10px;
     }
     .backs {
-        background-image: url('assets/me-mobile.png') !important;
+        background-image: url('assets/Asset\ 27.png') !important;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
