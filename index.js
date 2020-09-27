@@ -1,4 +1,3 @@
-// Get the modal
 var modal = document.getElementById('id01');
 
 // When the user clicks anywhere outside of the modal, close it
@@ -10,8 +9,8 @@ window.onclick = function(event) {
 
 //adds the text blur the left
 function addEffect() {
-    // let effectMe2 = document.getElementById('landing');
-    // effectMe2.classList.add("lefts");
+    let effectMe2 = document.getElementById('landing');
+    effectMe2.classList.add("lefts");
 
     let effectMe = document.getElementById('leftPane');
     effectMe.classList.add("text-blur-out");
@@ -25,8 +24,8 @@ function addEffect() {
 
 //removes text blur
 function removeEffect() {
-    // let effectMe2 = document.getElementById('landing');
-    // effectMe2.classList.remove("lefts");
+    let effectMe2 = document.getElementById('landing');
+    effectMe2.classList.remove("lefts");
     let effectMe = document.getElementById('leftPane');
     effectMe.classList.remove("text-blur-out");
 
@@ -37,8 +36,8 @@ function removeEffect() {
 
 //adds text blut to the right
 function addnewEffect() {
-    // let effectMe2 = document.getElementById('landing');
-    // effectMe2.classList.add("rights");
+    let effectMe2 = document.getElementById('landing');
+    effectMe2.classList.add("rights");
 
     let effectMe = document.getElementById('rightPane');
     effectMe.classList.add("text-blur-out");
@@ -49,8 +48,8 @@ function addnewEffect() {
 
 //removes text blur to the right
 function removenewEffect() {
-    // let effectMe2 = document.getElementById('landing');
-    // effectMe2.classList.remove("rights");
+    let effectMe2 = document.getElementById('landing');
+    effectMe2.classList.remove("rights");
     let effectMe = document.getElementById('rightPane');
     effectMe.classList.remove("text-blur-out");
 
@@ -59,10 +58,3 @@ function removenewEffect() {
 
 
 }
-
-//adds the exit function when clicked
-// function exitRight() {
-//     let exitRight = document.getElementsById('pane');
-//     exitRight.classList.add("slide-out-right");
-
-// }
