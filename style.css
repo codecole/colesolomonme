@@ -1,28 +1,25 @@
 @charset "UTF-8";
 @font-face {
-    font-family: "Mont";
-    src: url("fonts/Mont-Regular.ttf");
-    src: url("fonts/Mont-Regular.eot");
-    src: local("☺"), url("/fonts/Mont-Regular.woff") format("woff"), url("/fonts/Mont-Regular.ttf") format("truetype"), url("/fonts/Mont-Regular.svg") format("svg");
+    font-family: 'DM Sans', sans-serif;
+    src: url("fonts/dmsans/DMSans-Regular.ttf");
+    src: local("☺"), url("fonts/dmsans/DMSans-Regular.ttf");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Mont";
-    src: url("/fonts/Mont-Bold.ttf");
-    src: url("fonts/Mont-Bold.eot");
-    src: local("☺"), url("fonts/Mont-Bold.woff") format("woff"), url("fonts/Mont-Bold.ttf") format("truetype"), url("fonts/Mont-Bold.svg") format("svg");
-    font-weight: 600;
-    font-style: normal;
+    font-family: 'DM Sans', sans-serif;
+    src: url("fonts/dmsans/DMSans-Medium.ttf");
+    src: local("☺"), url("fonts/dmsans/DMSans-Medium.ttf");
+    font-weight: 500;
+    font-style: nromal;
 }
 
 @font-face {
-    font-family: "Mont";
-    src: url("fonts/Mont-Heavy.ttf");
-    src: url("fonts/Mont-Heavy.eot");
-    src: local("☺"), url("fonts/Mont-Heavy.woff") format("woff"), url("fonts/Mont-Heavy.ttf") format("truetype"), url("fonts/Mont-Heavy.svg") format("svg");
-    font-weight: 800;
+    font-family: 'DM Sans', sans-serif;
+    src: url("fonts/dmsans/DMSans-Bold.ttf");
+    src: local("☺"), url("fonts/dmsans/DMSans-Bold.ttf");
+    font-weight: 700;
     font-style: normal;
 }
 
