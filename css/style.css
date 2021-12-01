@@ -864,7 +864,7 @@ moe .color-dark .left-side ul li a:hover {
 
 .custom-link a {
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 5px;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -879,7 +879,7 @@ moe .color-dark .left-side ul li a:hover {
     height: 1px;
     background: #282828;
     display: inline-block;
-    margin: 0;
+    margin-bottom: 0;
 }
 
 .custom-link i {
@@ -888,6 +888,7 @@ moe .color-dark .left-side ul li a:hover {
     display: inline-block;
     margin-left: 0;
     margin-right: auto;
+    margin-bottom: 0;
     border-style: solid;
     border-width: 4px 0 4px 4px;
     border-color: transparent transparent transparent #282828;

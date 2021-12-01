@@ -67,7 +67,7 @@
             font-style: normal;
         }
     </style>
-
+    <script src="js/jquery.min.js "></script>
     <!-- Hotjar Tracking Code for www.colesolomon.netlify.app -->
     <script>
         (function(h, o, t, j, a, r) {
@@ -199,10 +199,10 @@
     <div class="container">
 
 
-        <h5>A Product designer with over 4 years of experience working in experience design, website design, and digital product design. What I bring to the table is a pragmatic approach to balancing design, software engineering and human interaction to digital
+        <p>A Product designer with over 4 years of experience working in experience design, website design, and digital product design. What I bring to the table is a pragmatic approach to balancing design, software engineering and human interaction to digital
             products. I am the missing thread that connects technology with humans.<br><br> The works below are a summary and NOT the actual case studies, also excluding works from different industries I have gained cognitive experience.
 
-        </h5>
+        </p>
         <br>
         <div class="custom-link"> <a href="https://docs.google.com/document/d/1xnjSMoDk84EEew5qXE7Sp1seCe_zwayOgDZk8e8Pggc/edit?usp=sharing" target="_blank">Link to my Resume</a><span></span> <i></i>
         </div>
@@ -211,82 +211,108 @@
     </div>
 
 
+    <div id="lockModal" class="w3-modal">
 
+        <div class="w3-modal-content w3-card-4 w3-animate-top" style="max-width: 600px;">
+
+
+            <div class="w3-center">
+                <span onclick="document.getElementById('lockModal').style.display='none'" class="w3-button w3-display-topright w3-hover-black">&times;</span>
+
+
+                <div class="w3-container">
+                    <div class="w3-section">
+                        <label for="psw" style="font-weight: bold;"> Enter password to access case study</label>
+                        <input class="w3-input w3-border" type="password" placeholder="Enter password" id="psw" required>
+                        <br>
+
+                        <button id="pswBtn" class=" w3-btn w3-black w3-padding " type="submit ">Open Case Study</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
     <!-- end header -->
-    <!-- <section class="page-header">
+    <!-- <section class="page-header ">
         <figure>
-            <a href="#"><img src="images/design_landing.gif" alt="Image"></a>
-        </figure>
-    </section> -->
+            <a href="# "><img src="images/design_landing.gif " alt="Image "></a>
+                            </figure>
+                            </section> -->
     <!-- end page-header -->
-    <section class="works">
-        <div class="container">
+    <section class="works ">
+        <div class="container ">
             <ul>
                 <li>
-                    <div class="title">
+                    <div class="title ">
                         <h2>Explore some of my freelance works</h2>
                         <p><q>Design is the intermediary between information and understanding</q></p>
                     </div>
                     <!-- end title -->
                 </li>
 
-                <!-- <li>
-                    <div class="project-box">
-                        <figure class="project-image reveal-effect masker wow">
-                            <a href="designs/savemoney"><img src="images/ui-design.png" alt="ecommerce_application_ui_design"></a>
-                        </figure>
-                        <div class="project-content">
-                            <h3>
-                                <a href="designs/twizll">Twizll Ecommerce Application</a>
-                            </h3>
-                            <small>Twizll - Figma | Notion | Adobe Illustrator | Whimsical</small> </div> -->
-                <!-- end project-content -->
-                <!-- </div> -->
-                <!-- end project-box -->
-                <!-- </li> -->
                 <li>
-                    <div class="project-box">
-                        <figure class="project-image reveal-effect masker wow">
-                            <a href="designs/savemoney"><img src="images/ui-design.png" alt="budget_management_ui_design"></a>
+                    <div class="project-box ">
+                        <figure class="project-image reveal-effect masker wow ">
+                            <a href="#" onclick="document.getElementById( 'lockModal').style.display='block' "><img src=" images/twizll-ui-design.png " alt="ecommerce_application_ui_design "></a>
                         </figure>
-                        <div class="project-content">
-                            <h3><a href="designs/savemoney">Budget Management Tool</a></h3>
+                        <div class="project-content ">
+                            <h3>
+                                <a href="#" onclick="document.getElementById( 'lockModal').style.display='block'">Twizll Ecommerce Application</a>
+                            </h3>
+                            <small>Twizll - Figma | Notion | Adobe Illustrator | Whimsical</small> </div>
+                        <!-- end project-content -->
+                    </div>
+                    <!-- end project-box -->
+                </li>
+
+
+
+                <li>
+                    <div class=" project-box ">
+                        <figure class="project-image reveal-effect masker wow ">
+                            <a href="designs/savemoney " onclick="document.getElementById( 'lockModal').style.display='block' "><img src="images/ui-design.png " alt="budget_management_ui_design "></a>
+                        </figure>
+                        <div class="project-content ">
+                            <h3><a href="designs/savemoney ">Budget Management Tool</a></h3>
                             <small>SaveMoney - Adobe Xd | Adobe Photoshop | Adobe Illustrator | Balsamiq</small> </div>
                         <!-- end project-content -->
                     </div>
                     <!-- end project-box -->
                 </li>
                 <li>
-                    <div class="project-box">
-                        <figure class="project-image reveal-effect masker wow">
-                            <a href="designs/qme"><img src="images/qme-ui-design.png" alt="social_eLearning_tool"></a>
+                    <div class="project-box ">
+                        <figure class="project-image reveal-effect masker wow ">
+                            <a href="designs/qme "><img src="images/qme-ui-design.png " alt="social_eLearning_tool "></a>
                         </figure>
-                        <div class="project-content">
-                            <h3><a href="designs/qme">Social eLearning Tool </a></h3>
+                        <div class="project-content ">
+                            <h3><a href="designs/qme ">Social eLearning Tool </a></h3>
                             <small>Qme - Figma | Adobe Illustrator | Adobe Photoshop </small> </div>
                         <!-- end project-content -->
                     </div>
                     <!-- end project-box -->
                 </li>
                 <li>
-                    <div class="project-box">
-                        <figure class="project-image reveal-effect masker wow">
-                            <a href="designs/empty-state"><img src="images/illustration-design.png" alt="empty_state_illustrations"></a>
+                    <div class="project-box ">
+                        <figure class="project-image reveal-effect masker wow ">
+                            <a href="designs/empty-state "><img src="images/illustration-design.png " alt="empty_state_illustrations "></a>
                         </figure>
-                        <div class="project-content">
-                            <h3><a href="designs/empty-state">Empty State Illustration</a></h3>
+                        <div class="project-content ">
+                            <h3><a href="designs/empty-state ">Empty State Illustration</a></h3>
                             <small>Empty States - Adobe Illustrator | Figma </small> </div>
                         <!-- end project-content -->
                     </div>
                     <!-- end project-box -->
                 </li>
                 <li>
-                    <div class="project-box">
-                        <figure class="project-image reveal-effect masker wow">
-                            <a href="interactions"><img src="images/interactionCover.gif" alt="interaction_design_micro_interactions"></a>
+                    <div class="project-box ">
+                        <figure class="project-image reveal-effect masker wow ">
+                            <a href="interactions "><img src="images/interactionCover.gif " alt="interaction_design_micro_interactions "></a>
                         </figure>
-                        <div class="project-content">
-                            <h3><a href="interactions">Interaction Playground</a></h3>
+                        <div class="project-content ">
+                            <h3><a href="interactions ">Interaction Playground</a></h3>
                             <small>Micro Interactions </small> </div>
                         <!-- end project-content -->
                     </div>
@@ -301,25 +327,25 @@
     </section>
 
     <!-- end works -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="career wow fadeInUp">
+    <footer class="footer ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-12 ">
+                    <div class="career wow fadeInUp ">
                         <h6>Work with me</h6>
                         <h2>You have a new project or want me to speak at your next conference, let's work together.</h2>
-                        <div class="custom-link"><a href="https://calendly.com/cole-solomon/15min" target="_blank">Schedule a meeting</a> <span></span> <i></i>
+                        <div class="custom-link "><a href="https://calendly.com/cole-solomon/15min " target="_blank ">Schedule a meeting</a> <span></span> <i></i>
                         </div>
 
                     </div>
                     <!-- end career -->
                 </div>
                 <!-- end col-12 -->
-                <div class="col-lg-5 wow fadeInUp">
-                    <figure class="logo"> <img src="images/logo.png" alt="Image"> </figure>
+                <div class="col-lg-5 wow fadeInUp ">
+                    <figure class="logo "> <img src="images/logo.png " alt="Image "> </figure>
                 </div>
                 <!-- end col-5 -->
-                <!-- <div class="col-lg-4 col-md-6 wow fadeInUp">
+                <!-- <div class="col-lg-4 col-md-6 wow fadeInUp ">
                     <h5>Location</h5>
                     <address>
         Workstation<br>
@@ -328,7 +354,7 @@
         </address>
                 </div> -->
                 <!-- end col-4 -->
-                <div class="col-lg-3 col-md-6 wow fadeInUp">
+                <div class="col-lg-3 col-md-6 wow fadeInUp ">
                     <h5>Say Hello</h5>
                     <address>
         colesolomon.me@gmail.com <br>
@@ -336,8 +362,8 @@
         </address>
                 </div>
                 <!-- end col-3 -->
-                <div class="col-12 wow fadeInUp">
-                    <div class="sub-footer">
+                <div class="col-12 wow fadeInUp ">
+                    <div class="sub-footer ">
                         <ul>
 
                         </ul>
@@ -350,23 +376,32 @@
         </div>
         <!-- end container -->
     </footer>
-    <!-- <?php  include "includes/footer.html" ;?> -->
+    <!-- <?php  include "includes/footer.html " ;?> -->
     <!-- end footer -->
-    <audio id="hamburger-hover" src="audio/link.mp3" preload="auto"></audio>
+    <audio id="hamburger-hover " src="audio/link.mp3 " preload="auto "></audio>
 
     <!-- JS FILES -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/isotope.min.js"></script>
-    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/imagesloaded.pkgd.min.js "></script>
+    <script src="js/isotope.min.js "></script>
+    <script src="js/swiper.min.js "></script>
     <script src='js/TweenMax.min.js'></script>
     <script src='js/odometer.min.js'></script>
     <script src='js/fancybox.min.js'></script>
     <script src='js/wow.min.js'></script>
     <script src='js/scripts.js'></script>
+    <script>
+        //for closing password modal
+        var modal = document.getElementById('lockModal');
 
-
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none ";
+            }
+        }
+    </script>
 </body>
 
 </html>
