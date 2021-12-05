@@ -116,25 +116,25 @@
         })
 
         //password Modal porfolio check
-        var pswBtn = document.getElementById('pswBtn');
+        // var pswBtn = document.getElementById('pswBtn');
 
 
-        pswBtn.addEventListener('click', function() {
-            var psw = document.getElementById('psw').value;
+        // pswBtn.addEventListener('click', function() {
+        //     var psw = document.getElementById('psw').value;
 
 
-            console.log(psw);
-            if (psw && psw == 'poking-untrue-oversweet') {
+        //     console.log(psw);
+        //     if (psw && psw == 'poking-untrue-oversweet') {
 
 
-                window.location.href = 'https://colesolomon.me/designs/twizll'
+        //         window.location.href = 'https://colesolomon.me/designs/twizll'
 
-            } else {
-                alert('Incorrect Password!\nkindly contact me via social media.\nOR send an email to colesolomon.me@gmail.com');
+        //     } else {
+        //         alert('Incorrect Password!\nkindly contact me via social media.\nOR send an email to colesolomon.me@gmail.com');
 
 
-            }
-        })
+        //     }
+        // })
 
 
         // PAGE TRANSITION
