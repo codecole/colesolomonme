@@ -476,10 +476,12 @@
         <!-- JS FILES -->
         <script>
             var key = prompt("Kindly enter password to access case study!");
+            if (key == null) window.location.href = 'https://colesolomon.me/design';
 
             while (key != "poking-untrue-oversweet") {
                 alert("Incorrect Password!\nkindly contact me via social media.\nOR send an email to colesolomon.me@gmail.com");
                 key = prompt("Kindly enter password to access case study!");
+
             }
         </script>
 
