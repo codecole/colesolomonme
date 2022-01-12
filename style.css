@@ -12,7 +12,7 @@
     src: url("fonts/dmsans/DMSans-Medium.ttf");
     src: local("☺"), url("fonts/dmsans/DMSans-Medium.ttf");
     font-weight: 500;
-    font-style: nromal;
+    font-style: normal;
 }
 
 @font-face {
